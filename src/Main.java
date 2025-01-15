@@ -3,7 +3,6 @@ import com.google.gson.JsonParser;
 
 import java.io.IOException;
 import java.util.Scanner;
-//' https://v6.exchangerate-api.com/v6/077ac129727640d9768f99ff/latest/USD
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -12,7 +11,10 @@ public class Main {
         while (opcao != 7) {
             System.out.println("""
                     ***************************************************************
-                    Seja bem vindo ao Conversor de Moeda (Por Saulo Palácio)
+                    
+                    Seja Bem-vindo ao conversor de Moedas
+                    
+                    _______________________________________
                     
                     1- Dólar  >>>>>>>>>> Peso Argentino
                     2- Peso Argentino >> Dólar
@@ -20,9 +22,13 @@ public class Main {
                     4- Real Brasileiro > Dólar
                     5- Dólar >>>>>>>>>>> Peso Colombiano
                     6- Peso Colombiano > Dolar
+                   
                     7- Sair
                     
-                    Escolha uma das opções acima.
+                    _______________________________________
+                    
+                    Escolha uma opção...
+                    
                     ***************************************************************
                     """);
             opcao = leitura.nextInt();
